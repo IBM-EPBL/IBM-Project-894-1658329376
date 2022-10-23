@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(rgb(105, 105, 218),rgb(90, 206, 241));
+
+
+}
+body{
+    margin-top: 100px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
