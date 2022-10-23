@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(171, 217, 228);
+
+
+}
+img{
+    max-height:100px;
+    max-width: 135px;
+    float: inline-start;
+    border: 10px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgb(72, 32, 218);
+    margin-left: 500px;
+}
