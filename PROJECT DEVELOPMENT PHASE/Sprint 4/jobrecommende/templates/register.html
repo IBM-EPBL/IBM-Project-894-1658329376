@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/reg.css') }}" / >
+  <title>Registration Form </title>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="form-wrap">
+          <h1>Sign Up</h1>
+          <p>It's Free and Only takes a minute</p>
+          
+            <form action="/register" method="post">
+            <div class="form-group">
+              <label for="first-name"> Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="text" name="Phone" id="Phone">
+            </div>
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="Password">
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="bottom-text">
+              By Clicking the Sign Up Button, you agree to our
+              <a href="#">Term & Conditions</a> and <a href="#">Primary Policy</a>
+            </p>
+          </form>
+          
+        </div>
+
+        <h6>{{msg}}</h6>
+        
+        <footer>
+          <p>Already Have an Account? <a href="home.html">Login Here</a></p>
+        </footer>
+      </div>
+      
+
+
+</body>
+</html>
